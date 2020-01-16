@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Kirby",
+        "image": "images/Kirby.png"
+    },
+    {
+        "id": 2,
+        "name": "Goo",
+        "image": "images/Goo.png"
+    },
+    {
+        "id": 3,
+        "name": "King Dedede",
+        "image": "images/King_Dedede.png"
+    },
+    {
+        "id": 4,
+        "name": "Waddle Dee",
+        "image": "images/Waddle_Dee.png"
+    },
+    {
+        "id": 5,
+        "name": "Sir Kibble",
+        "image":"images/Sir_Kibble.png"
+    },
+    {
+        "id": 6,
+        "name": "Scarfy",
+        "image":"images/Scarfy.png"
+    },
+    {
+        "id": 7,
+        "name": "Marx",
+        "image":"images/Marx.png"
+    },
+    {
+        "id": 8,
+        "name": "Whispy Woods",
+        "image":"images/Whispy_Woods.png"
+    },
+    {
+        "id": 9,
+        "name": "Susie",
+        "image":"images/Susie.png"
+    },
+    {
+        "id": 10,
+        "name": "MetaKnight",
+        "image":"images/MetaKnight.png"
+    },
+    {
+        "id": 11,
+        "name": "Kracko",
+        "image":"images/Kracko.png"
+    },
+    {
+        "id": 12,
+        "name": "Adeleine",
+        "image":"images/Adeleine.png"
+    }
+]
