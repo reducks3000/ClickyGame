@@ -63,16 +63,6 @@ class App extends Component {
     cb(newState, this.checkWin)
   }
 
-  checkWin = (newState) => {
-    if(newState.pickedCharacters.length === 12) {
-      newState.message = `You win! Congratulations`
-      alert(`You win! Congratulations`)
-      newState.pickedCharacters = [];
-      this.setState({ message: newState.message})
-      this.setState({ pickedCharacters: [] });
-    }
-  }
-
   render() {
     return (
       <HashRouter basename='/'>
@@ -88,6 +78,17 @@ class App extends Component {
                 <Score type="Top Score" score={this.state.topScore}/>
               </div>
             </div>
+          </div>
+          <div id="grid" className="container">
+            {this.state.characters.map(character => (
+              <CharacterImages
+                key={character.id}
+                id={character.id}
+                name={character.name}
+                image={character.image}
+                isPicked={this.isPicked}
+              />
+            ))}
           </div>
         </div>
       </HashRouter>
